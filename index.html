@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>vCard Template</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <style>
+        body {
+            background: url(/photos.jpg) no-repeat;
+            background-size: cover;
+        }
+
+        h3 {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            opacity: 0.9;
+        }
+
+        .a-circle {
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .btn-sub:hover {
+            box-shadow: 0px 2px 2px 2px rgba(128, 128, 128, 0.658);
+        }
+        .demo{
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container" style="max-width: 950px;">
+        <nav class="navbar  float-right">
+            <ul class="pagination">
+                <li><a class="text-dark mx-3" href="#">Home</a></li>
+                <li><a class="text-dark mx-3" href="#">Resume</a></li>
+                <li><a class="text-dark mx-3" href="#">Services</a></li>
+                <li><a class="text-dark mx-3" href="#">Portfolio</a></li>
+                <li><a class="text-dark mx-3" href="#">Blog</a></li>
+                <li><a class="text-dark mx-3" href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h3 class="m-5">Angelina <span class="text-info">Jolie</span></h3>
+
+        <div class="container">
+            <div class="row bg-info rounded pt-5">
+                <div class="col-4">
+                    <img class="mx-4" src="/angelina.jpg" width="250px" alt="">
+                </div>
+                <div class="col-8">
+                    <div class="container text-center  text-light pt-3 my-5" style="width: 300px;">
+                        <h1>Angelina Jolie</h1>
+                        <h4 class="my-4">Aktrist</h4>
+
+                        <a class="a-circle rounded-circle bg-light m-2 px-1 py-1" href="#">
+                            <i class="fab fa-twitter text-muted"></i>
+                        </a>
+                        <a class="a-circle rounded-circle bg-light m-2 px-2 py-1" href="#">
+                            <i class="fab fa-facebook-f text-muted"></i>
+                        </a>
+                        <a class="a-circle rounded-circle bg-light m-2 px-2 py-1" href="#">
+                            <i class="fab fa-instagram text-muted"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row bg-light rounded pt-4">
+                <div class="col-6">
+                    <h2 class="font-weight-bold mx-4">About <span class="text-info">Me</span></h2>
+                    <p class="px-4">
+                        Hello! I’m Alex Smith. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum
+                        ullamcorper sem, at placerat dolor volutpat ac. Duis nulla enim, condimentum nec ultricies.
+                    </p>
+
+                    <button type="submit" class="btn-sub rounded m-4">DOWNLOAD RESUME</button>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <ul  class="demo my-1">
+                                <li class="my-1">Age</li>
+                                <li class="my-1">Residence</li>
+                                <li class="my-1">Address</li>
+                                <li class="my-1">e-mail</li>
+                                <li class="my-1">Phone</li>
+                                <li class="my-1">Freelance</li>
+                            </ul>
+                        </div>
+                        <div class="col-8">
+                            <ul class="demo m-1">
+                                <li class="my-1 text-muted">45</li>
+                                <li class="my-1 text-muted">USA</li>
+                                <li class="my-1 text-muted">Los Angeles, USA</li>
+                                <li class="my-1 text-success">e-mail@example.com</li>
+                                <li class="my-1 text-muted">+0123 123 456 789</li>
+                                <li class="my-1 text-muted">Available</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
